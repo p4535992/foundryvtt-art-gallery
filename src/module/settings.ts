@@ -1,4 +1,4 @@
-export const RIDDLE_ONE_MODULE_NAME = 'foundryvtt-riddle-one';
+export const ART_GALLERY_MODULE_NAME = 'foundryvtt-art-gallery';
 
 /**
  * Because typescript doesn't know when in the lifecycle of foundry your code runs, we have to assume that the
@@ -31,4 +31,6 @@ export function getGame(): Game {
   return game;
 }
 
-export const registerSettings = function () {};
+export const registerSettings = function () {
+  // Settings
+};

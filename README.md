@@ -2,6 +2,31 @@
 
 Welcome to Art Gallery. This module allows you to create a small gallery of pictures attached directly to an actor. Great if you have accumulated lots of cool art of your character over the course of a long campaign, or if you just want to have some relevant images "at hand".
 
+**Note: This is module is inspired from the  wonderful work done by [Florad](https://gitlab.com/florad-foundry) with its [Art Gallery](https://gitlab.com/florad-foundry/art-gallery) module.**
+
+## Installation
+
+It's always easiest to install modules from the in game add-on browser.
+
+To install this module manually:
+1.  Inside the Foundry "Configuration and Setup" screen, click "Add-on Modules"
+2.  Click "Install Module"
+3.  In the "Manifest URL" field, paste the following url:
+
+`https://raw.githubusercontent.com/p4535992/foundryvtt-art-gallery/master/src/module.json`
+
+4.  Click 'Install' and wait for installation to complete
+5.  Don't forget to enable the module in game using the "Manage Module" button
+
+### libWrapper
+
+This module uses the [libWrapper](https://github.com/ruipin/fvtt-lib-wrapper) library for wrapping core methods. It is a hard dependency and it is recommended for the best experience and compatibility with other modules.
+
+
+## Known Issue
+
+## Features
+
 ## How to use
 
 There are two ways to access the art gallery.
@@ -30,28 +55,6 @@ Possible future features include, but are not limited to:
 - Permissions per image
 - Sharing images to only select people
 
-## Installation
-
-It's always easiest to install modules from the in game add-on browser.
-
-To install this module manually:
-1.  Inside the Foundry "Configuration and Setup" screen, click "Add-on Modules"
-2.  Click "Install Module"
-3.  In the "Manifest URL" field, paste the following url:
-
-`https://raw.githubusercontent.com/p4535992/foundryvtt-art-gallery/master/src/module.json`
-
-4.  Click 'Install' and wait for installation to complete
-5.  Don't forget to enable the module in game using the "Manage Module" button
-
-### libWrapper
-
-This module uses the [libWrapper](https://github.com/ruipin/fvtt-lib-wrapper) library for wrapping core methods. It is a hard dependency and it is recommended for the best experience and compatibility with other modules.
-
-
-## Known Issue
-
-## Features
 
 # Build
 

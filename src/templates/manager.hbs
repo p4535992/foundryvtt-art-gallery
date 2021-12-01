@@ -8,7 +8,7 @@
         <button
           type="button"
           class="menu"
-          title="{{localize 'AG.ClickToOpen'}}"
+          title="{{localize 'foundryvtt-art-gallery.ClickToOpen'}}"
         >
           <i class="fas fa-bars"></i>
         </button>
@@ -20,7 +20,7 @@
       <img
         src="{{art.img}}"
         alt="{{art.title}}"
-        title="{{localize 'AG.ClickToZoom'}}"
+        title="{{localize 'foundryvtt-art-gallery.ClickToZoom'}}"
       />
       <div
         class="description"
@@ -28,7 +28,7 @@
         data-target="description"
       >
         {{#if art.description}} {{art.description}} {{else}} {{localize
-        "AG.NoDesc"}} {{/if}}
+        "foundryvtt-art-gallery.NoDesc"}} {{/if}}
       </div>
     </li>
     {{/each}}
@@ -43,32 +43,32 @@
     <span class="flexrow inputs">
       <span class="flexcol">
         <div class="form-group">
-          <label for="title"> {{localize "AG.Title"}} </label>
+          <label for="title"> {{localize "foundryvtt-art-gallery.Title"}} </label>
           <span class="form-fields">
             <input type="text" name="title" placeholder="{{localize
-            "AG.Title"}}" required />
+            "foundryvtt-art-gallery.Title"}}" required />
           </span>
         </div>
         <div class="form-group">
           <label for="title">
-            {{localize "AG.Image"}} {{localize "AG.FilePath"}}</label
+            {{localize "foundryvtt-art-gallery.Image"}} {{localize "foundryvtt-art-gallery.FilePath"}}</label
           >
           <span class="form-fields">
             {{#if canBrowse}} {{filePicker target="img" type="image"}}{{/if}}
-            <input class="image" type="text" name="img" placeholder="{{localize
-            "AG.FilePath"}}" required />
+            <input class="image" type="text" name="img"
+                placeholder="{{localize "foundryvtt-art-gallery.FilePath"}}" required />
           </span>
         </div>
       </span>
       <textarea
         name="description"
         rows="3"
-        placeholder="{{localize 'AG.EnterDesc'}}"
+        placeholder="{{localize "foundryvtt-art-gallery.EnterDesc"}}"
       ></textarea>
     </span>
     <button type="submit">
       <i class="fas fa-plus"></i>
-      {{localize "AG.AddArt"}}
+      {{localize "foundryvtt-art-gallery.AddArt"}}
     </button>
   </footer>
   {{/if}}
